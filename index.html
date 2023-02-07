@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minesweeper</title>
+</head>
+<body>
+   <div class="board border-up-large">
+       <div class="data border-down-small">
+           <div class="bombs-left border-down-small">
+               <img src="media/numbers/an0.svg" class="mines-left-display">
+               <img src="media/numbers/an0.svg" class="mines-left-display">
+               <img src="media/numbers/an0.svg" class="mines-left-display">
+            </div>
+           <div class="status border-up-small">
+               <img src="media/images/happy.png" class="smiley">
+           </div>
+           <div class="time bombs-left border-down-small">
+               <img src="media/numbers/an0.svg" class="timer-display">
+               <img src="media/numbers/an0.svg" class="timer-display">
+               <img src="media/numbers/an0.svg" class="timer-display">
+           </div>
+        </div>
+        <div class="toggle-bar">
+            <img src="media/images/bomb.png" class="toggle-img">
+            <input type="checkbox" id="check" class="toggle">
+            <label for="check"></label>
+            <img src="media/images/marked.png" alt="" class="toggle-img">
+        </div>
+        <div class="field border-down-large"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
